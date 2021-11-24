@@ -1,0 +1,78 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(227, 238, 241);
+}
+
+header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #1A2347;
+    color: white;
+    height: 80px;
+    line-height: 80px;
+}
+
+nav{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .caixa{
+   background-color: #F5F907;
+   height: 120px;
+   width: 300px; 
+   text-align: center;
+   line-height: 120px;
+   border: 1px solid rgb(235, 200, 48);
+   border-radius: 10px;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #273272;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+a:hover{
+    color: #e47b7b;
+}
+
+footer{
+    margin-top: 18%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #273272;
+    height: 150px;
+}
+
+.itens-rodape{
+    margin-top: 15px;
+}
+
+footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer p{
+    color: rgb(229, 231, 190);
+    margin-bottom: 8px;
+}
+
+footer img{
+    height:40px;
+    width: 40px;
+    margin-right: 10px;
+}
