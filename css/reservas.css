@@ -29,8 +29,8 @@ nav{
 
 nav .caixa{
     background-color: #14B378;
-    height: 450px;
-    width: 300px;
+    height: 480px;
+    width: 320px;
     text-align: center;
     border-radius: 10px;
 }
@@ -103,4 +103,24 @@ footer img{
     height:40px;
     width: 40px;
     margin-right: 10px;
+}
+
+#preencher{
+    margin-top: 10px;
+}
+
+.input-data{
+    margin-top: 20px;
+}
+
+input{
+    color: rgb(224, 207, 187);
+    border: none;
+    background-color: rgb(26, 87, 201);
+    border-radius: 20px;
+    padding: 3px 12px;
+}
+
+h2{
+    margin-top: 20px;
 }

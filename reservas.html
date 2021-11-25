@@ -8,6 +8,7 @@
     <title>Reservas</title>
 
     <link rel="stylesheet" href="css/reservas.css">
+    <script src="js/script.js"></script>
 
 </head>
 
@@ -22,7 +23,12 @@
             <img src="img/churrasqueira.jpeg.webp" alt="">
             <hr>
             <p>Aluguel churrasqueira da piscina</p>
-            <button>Pré-reserva</button>
+            <button onclick="reserva()">Pré-reserva</button>
+            
+            <!--aqui o usuário escolherá a data-->
+             <div class="input-data">
+                <input id="data_reserva_1" type="date">
+            </div>
         </div>
 
         <div class="caixa">
@@ -30,7 +36,12 @@
             <img src="img/society.jpeg" alt="">
             <hr>
             <p>Aluguel campo futebol society</p>
-            <button>Pré-reserva</button>
+            <button onclick="reserva()">Pré-reserva</button>
+
+             <!--aqui o usuário escolherá a data-->
+             <div class="input-data">
+                <input id="data_reserva_2" type="date">
+            </div>
         </div>
 
         <div class="caixa">
@@ -38,9 +49,21 @@
             <img src="img/piscina.jpeg" alt="">
             <hr>
             <p>Aluguel da piscina semiolímpica</p>
-            <button>Pré-reserva</button>
+            <button onclick="reserva()">Pré-reserva</button>
+
+             <!--aqui o usuário escolherá a data-->
+             <div class="input-data">
+                <input id="data_reserva_3" type="date">
+            </div>
         </div>
     </nav>
+
+    <div class="caixa">
+        <button onclick="consultar_reserva()" style="background-color: rgb(182, 114, 11);">Consultar reservas</button>
+    </div>
+    <div id="reservas_feitas">
+        
+    </div>
 
    <div class="back">
        <a href="index.html">Voltar</a>
