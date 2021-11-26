@@ -125,8 +125,8 @@ h2{
     margin-top: 20px;
 }
 
-.input-usuario input{
-    margin-top: 5px;
+#id-usuario{
+    margin-top: 30px;
     font-size: large;
-    width: 140px;
+    text-align: end;
 }
