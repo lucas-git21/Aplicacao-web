@@ -1,7 +1,7 @@
 //função que é chamada quando a página é recarregada, simulando um outro usuário entrando no site, com um número de identificação diferente
 function id_usuario() {
     let id = document.getElementById('id-usuario')
-    let numRandomico =  Math.floor(Math.random() * 100 + 1)
+    let numRandomico = Math.floor(Math.random() * 100 + 1)
 
     id.innerHTML = `ID do usuário: ${numRandomico}`
 }
@@ -9,15 +9,13 @@ function id_usuario() {
 //botões "Pré-reserva"
 //capturando o input do usuário, no caso a data que ele escolheu
 //data de reserva para churrascaria
-function reserva_churrasco() {
+function reserva_churrasco(limpar) {
     input1 = document.getElementById('data_reserva_1')
     console.log(input1.value)
 
     //preciso acessar input2 e input 3 que estão em outras funções
     reserva_campo()
     reserva_piscina()
-
-    return input1
 }
 
 //data de reserva para campo
@@ -27,8 +25,6 @@ function reserva_campo() {
 
     reserva_churrasco()
     reserva_piscina()
-
-    return input2
 }
 
 //data de reserva para piscina
@@ -38,17 +34,16 @@ function reserva_piscina() {
 
     reserva_churrasco()
     reserva_campo()
-   
-    return input3
 }
 
 //botão Consultar reservas
 function consultar_reserva() {
+    
     //criando uma variável e associando-a onde será exibida as respostas no HTML
-    let resp = document.getElementById('reservas_feitas')
+    resp = document.getElementById('reservas_feitas')
 
-   resp.innerHTML = `<h2>Minhas reservas</h2><br>`
-   
+    resp.innerHTML = `<h2>Minhas reservas</h2><br>`
+
     //condicional que diz que só será exibida a resposta para as reservas que tiveram datas escolhidas pelo usuário (não vazias)
     if (input1.value != '') {
         resp.innerHTML += `<h3>Churrascaria</h3> <h4>Data: ${input1.value}</h4><br>`
@@ -59,9 +54,4 @@ function consultar_reserva() {
     if (input3.value != '') {
         resp.innerHTML += `<h3>Piscina</h3> <h4>Data: ${input3.value}</h4>`
     }
-   
-    //zerando as datas depois do usuário ter consultado as reservas 
-    input1.value = ''
-    input2.value = ''
-    input3.value = ''
 }
