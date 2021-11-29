@@ -9,7 +9,7 @@ function id_usuario() {
 //botões "Pré-reserva"
 //capturando o input do usuário, no caso a data que ele escolheu
 //data de reserva para churrascaria
-function reserva_churrasco(limpar) {
+function reserva_churrasco() {
     input1 = document.getElementById('data_reserva_1')
     console.log(input1.value)
 
