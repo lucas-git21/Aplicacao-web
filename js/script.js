@@ -11,9 +11,9 @@ function id_usuario() {
     id.innerHTML = `ID do usuário: ${numRandomico}`
 }
 
-//dar a mesma resposta se a data de reserva não for preecnhida
-function respReserva(parametro) {
-    if (parametro) {
+//dar a mesma resposta se a data de reserva for preenchida ou não
+function respReserva(resp) {
+    if (resp) {
         alert('Pré-reserva feita')
     } else {
         alert('Escolha uma data')
@@ -30,7 +30,7 @@ function reserva_churrasco() {
     if (input1.value != '') {
         respReserva(true)
     }
-    else{
+    else {
         respReserva(false)
     }
 }
@@ -43,7 +43,7 @@ function reserva_campo() {
     if (input2.value != '') {
         respReserva(true)
     }
-    else{
+    else {
         respReserva(false)
     }
 }
@@ -56,27 +56,26 @@ function reserva_piscina() {
     if (input3.value != '') {
         respReserva(true)
     }
-    else{
+    else {
         respReserva(false)
     }
 }
 
 //botão Consultar reservas
 function consultar_reserva() {
-    
     //criando uma variável e associando-a onde será exibida as respostas no HTML
     resp = document.getElementById('reservas_feitas')
 
     resp.innerHTML = `<h2>Minhas reservas</h2><br>`
 
-    //condicional que diz que só será exibida a resposta para as reservas que tiveram datas escolhidas pelo usuário (não vazias)
-        if (input1 != null) {
-            resp.innerHTML += `<h3>Churrascaria</h3> <h4>Data: ${input1.value}</h4><br>`
-        }
-        if (input2 != null) {
-            resp.innerHTML += `<h3>Campo</h4> <h4>Data: ${input2.value}</h4><br>`
-        }
-        if (input3 != null) {
-            resp.innerHTML += `<h3>Piscina</h3> <h4>Data: ${input3.value}</h4>` 
-        }
+    //condicional que diz que só será exibida a resposta para as reservas que tiveram datas escolhidas pelo usuário (não nulas)
+    if (input1 != null) {
+        resp.innerHTML += `<h3>Churrascaria</h3> <h4>Data: ${input1.value}</h4><br>`
+    }
+    if (input2 != null) {
+        resp.innerHTML += `<h3>Campo</h4> <h4>Data: ${input2.value}</h4><br>`
+    }
+    if (input3 != null) {
+        resp.innerHTML += `<h3>Piscina</h3> <h4>Data: ${input3.value}</h4>`
+    }
 }
