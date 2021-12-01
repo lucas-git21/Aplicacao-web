@@ -11,10 +11,10 @@ function id_usuario() {
     id.innerHTML = `ID do usuário: ${numRandomico}`
 }
 
-//dar a mesma resposta se a data de reserva for preenchida ou não
-function respReserva(resp) {
-    if (resp) {
-        alert('Pré-reserva feita')
+//dar resposta para cada reserva se a data de reserva for preenchida ou não
+function respReserva(bool, reserva) {
+    if (bool) {
+        alert(`Pré-reserva ${reserva} feita`)
     } else {
         alert('Escolha uma data')
     }
@@ -28,7 +28,7 @@ function reserva_churrasco() {
     console.log(input1.value)
 
     if (input1.value != '') {
-        respReserva(true)
+        respReserva(true, 'da churrasqueira')
     }
     else {
         respReserva(false)
@@ -41,7 +41,7 @@ function reserva_campo() {
     console.log(input2.value)
 
     if (input2.value != '') {
-        respReserva(true)
+        respReserva(true, 'do campo')
     }
     else {
         respReserva(false)
@@ -54,7 +54,7 @@ function reserva_piscina() {
     console.log(input3.value)
 
     if (input3.value != '') {
-        respReserva(true)
+        respReserva(true, 'da piscina')
     }
     else {
         respReserva(false)
