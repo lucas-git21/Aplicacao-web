@@ -83,12 +83,12 @@ footer .footer-itens {
     justify-content: space-around;
     background-color: #273272;
     height: 180px;
-    margin-bottom: 1%;
+   
 }
 
 .copyright {
     position: relative;
-    top: -50px;
+    top: -40px;
     color: rgb(223, 241, 241);
     text-align: center;
 }
