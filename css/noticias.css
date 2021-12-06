@@ -10,6 +10,77 @@ body {
     background-color: rgb(227, 238, 241);
 }
 
+header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #1A2347;
+    color: white;
+    height: 80px;
+    line-height: 80px;
+}
+
+.title-social{
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 100px;
+    background-color: #063E8C;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+}
+
+.secao-social{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.noticia-social{
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.795);
+}
+
+.noticia-social img{
+    width: 400px;
+}
+
+aside{
+    border-bottom: 1px solid rgba(155, 108, 6, 0.555);
+    border-left: 1px solid rgba(155, 108, 6, 0.555);
+    padding-left: 12px;
+}
+
+.legenda{
+    margin-top: 7px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color: #131C1C;
+    text-align: center;
+}
+
+.titulo-sidebar{
+    color: #063E8C;
+    font-weight: bolder;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.img-sidebar{
+    margin-left: 78px;
+}
+span {
+    position: relative;
+    top: -5px;
+    margin-left: 5px;
+    color: grey;
+}
+
 .back {
     margin-top: 8%;
     margin-bottom: 25px;
@@ -31,7 +102,6 @@ footer .footer-itens {
     justify-content: space-around;
     background-color: #273272;
     height: 180px;
-   
 }
 
 .copyright {
