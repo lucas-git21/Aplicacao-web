@@ -7,7 +7,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     width: 90%;
     margin: auto;
-    background-color: rgb(227, 238, 241);
 }
 
 header{
@@ -15,7 +14,7 @@ header{
     font-size: xx-large;
     font-weight: bold;
     margin-top: 20px;
-    background-color: #1A2347;
+    background-color: #063E8C;
     color: white;
     height: 80px;
     line-height: 80px;
@@ -40,13 +39,9 @@ nav .caixa{
 a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    color: #273272;
+    color: #063E8C;
     font-weight: bold;
     font-size: x-large;
-}
-
-a:hover{
-    color: #e47b7b;
 }
 
 footer{
