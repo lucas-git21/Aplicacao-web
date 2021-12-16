@@ -28,7 +28,7 @@ nav {
 
 nav .caixa {
     background-color: #FFFF00;
-    height: 500px;
+    height: 550px;
     width: 320px;
     text-align: center;
     border-radius: 10px;
@@ -80,6 +80,24 @@ hr {
     background-color: #2887d4;
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+
+.caixa form input{
+    width: 35px;
+    background-color: #063E8C;
+}
+
+.input-data img{
+    width: 16px;
+    cursor: pointer;
+}
+
+.input-data{
+    margin-top: 15px;
+}
+
+.input-data input{
+    margin-left: 15px;
 }
 
 footer .footer-itens {

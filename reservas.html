@@ -17,48 +17,79 @@
     <!--cabeçalho-->
     <header>Reservas</header>
 
+    <!--aqui será exibido o ID do usuário-->
     <div id="id-usuario">
 
     </div>
 
     <nav>
+        <!--caixa da churrasqueira-->
         <div class="caixa">
             <h3>Churrasqueira</h3>
             <img src="img/churrasqueira.jpg" alt="">
             <hr>
             <p>Aluguel churrasqueira da piscina</p>
+            <!--botão pré-reserva-->
             <button onclick="reserva_churrasco()">Pré-reserva</button>
 
             <!--aqui o usuário escolherá a data-->
             <div class="input-data">
                 <input id="data_reserva_1" type="date">
+                <!--símbolo de ajuda-->
+                <abbr title="Escolha a data e hora"><img src="img/sinal-de-informacao.png" alt=""></abbr>
             </div>
+
+            <!--aqui o usuário escolherá a hora-->
+            <form action="">
+                <input id="hora-inicio1" type="text" value="00:00"> às
+                <input id="hora-fim1" type="text" value="00:00">
+            </form>
         </div>
 
+        <!--caixa do campo-->
         <div class="caixa">
             <h3>Campo society</h3>
             <img src="img/society.jpg" alt="" height="225px">
             <hr>
             <p>Aluguel campo futebol society</p>
+            <!--botão pré-reserva-->
             <button onclick="reserva_campo()">Pré-reserva</button>
 
             <!--aqui o usuário escolherá a data-->
             <div class="input-data">
                 <input id="data_reserva_2" type="date">
+                <!--símbolo de ajuda-->
+                <abbr title="Escolha a data e hora"><img src="img/sinal-de-informacao.png" alt=""></abbr>
             </div>
+
+            <!--aqui o usuário escolherá a hora-->
+            <form action="">
+                <input id="hora-inicio2" type="text" value="00:00"> às
+                <input id="hora-fim2" type="text" value="00:00">
+            </form>
         </div>
 
+        <!--caixa da piscina-->
         <div class="caixa">
             <h3>Piscina semiolímpica</h3>
             <img src="img/piscina.jpg" alt="">
             <hr>
             <p>Aluguel da piscina semiolímpica</p>
+            <!--botão pré-reserva-->
             <button onclick="reserva_piscina()">Pré-reserva</button>
 
             <!--aqui o usuário escolherá a data-->
             <div class="input-data">
                 <input id="data_reserva_3" type="date">
+                <!--símbolo de ajuda-->
+                <abbr title="Escolha a data e hora"><img src="img/sinal-de-informacao.png" alt=""></abbr>
             </div>
+
+            <!--aqui o usuário escolherá a hora-->
+            <form action="">
+                <input id="hora-inicio3" type="text" value="00:00"> às
+                <input id="hora-fim3" type="text" value="00:00">
+            </form>
         </div>
     </nav>
 
@@ -67,6 +98,7 @@
         <button onclick="consultar_reserva()" style="background-color: rgb(15, 173, 134);">Consultar reservas</button>
     </div>
 
+    <!--aqui será exibido as reservas-->
     <div id="reservas_feitas">
 
     </div>
