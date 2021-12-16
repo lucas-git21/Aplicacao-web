@@ -28,7 +28,7 @@ nav {
 
 nav .caixa {
     background-color: #FFFF00;
-    height: 480px;
+    height: 520px;
     width: 320px;
     text-align: center;
     border-radius: 10px;
@@ -43,6 +43,11 @@ nav .caixa h3 {
 nav .caixa p {
     color: rgb(77, 66, 66);
     margin-top: 40px;
+}
+
+.caixa img{
+    width: 300px;
+    border-radius: 8px;
 }
 
 hr {
@@ -116,14 +121,11 @@ footer img {
     margin-top: 10px;
 }
 
-.input-data {
-    margin-top: 20px;
-}
-
 .caixa input {
+    margin-top: 20px;
     color: rgb(224, 207, 187);
     border: none;
-    background-color: #063e8c;
+    background-color: rgb(214, 82, 65);
     border-radius: 20px;
     padding: 3px 12px;
 }
