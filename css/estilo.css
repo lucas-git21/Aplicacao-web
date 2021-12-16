@@ -24,6 +24,7 @@ nav{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15.4%;
 }
 
 nav .caixa{
@@ -44,32 +45,11 @@ a{
     font-size: x-large;
 }
 
-footer{
-    margin-top: 18%;
+footer .footer-itens {
     display: flex;
     justify-content: space-around;
     background-color: #273272;
-    height: 150px;
-}
-
-.itens-rodape{
-    margin-top: 15px;
-}
-
-footer h3{
-    color: white;
-    margin-bottom: 20px;
-}
-
-footer p{
-    color: rgb(229, 231, 190);
-    margin-bottom: 8px;
-}
-
-footer img{
-    height:40px;
-    width: 40px;
-    margin-right: 10px;
+    height: 180px;
 }
 
 .copyright {
@@ -77,4 +57,24 @@ footer img{
     top: -40px;
     color: rgb(223, 241, 241);
     text-align: center;
+}
+
+.itens-rodape {
+    margin-top: 15px;
+}
+
+footer h3 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: rgb(229, 231, 190);
+    margin-bottom: 8px;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
 }
