@@ -7,7 +7,6 @@ let horaInicio1 = document.getElementById('hora-inicio1')
 let horaInicio2 = document.getElementById('hora-inicio2')
 let horaInicio3 = document.getElementById('hora-inicio3')
 
-
 //função que é chamada quando a página é recarregada, simulando um outro usuário entrando no site, com um número de identificação diferente
 function id_usuario() {
     let id = document.getElementById('id-usuario')
