@@ -18,6 +18,7 @@ header {
     color: white;
     height: 80px;
     line-height: 80px;
+    margin-bottom: 70px;
 }
 
 nav{
@@ -44,6 +45,30 @@ nav .caixa{
     font-weight: bold;
     font-size: x-large;
 }
+
+/*estilização da tabela*/
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td{
+    border: 1px solid rgb(110, 108, 90);
+    padding: 12px;
+}
+
+.listrado, th{
+    background-color: #262e2e;
+    color: white;
+}
+
+.centralizar{
+    text-align: center;
+}
+.setores{
+    text-align: center;
+}
+/**/
 
 .back {
     margin-top: 8%;
