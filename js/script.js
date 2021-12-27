@@ -20,8 +20,8 @@ function fetchApi(url) {
         })
         .then((data) => {
             let tempInCelsius = ((5 / 9) * (data.main.temp - 32)).toFixed(1);
-            city.innerHTML = `${data.name}:`;
-            temp.innerHTML = tempInCelsius;
+            city.innerHTML = `${data.name}`;
+            temp.innerHTML = `${tempInCelsius} ºC`;
 
             let imagem = document.getElementById('pngTemp')
 
