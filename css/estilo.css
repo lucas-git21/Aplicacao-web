@@ -88,3 +88,9 @@ footer img {
     text-align: end;
     margin-right: 20px;
 }
+
+.caixa-temp{
+    background-color: rgb(231, 226, 217);
+    padding: 20px 40px;
+    border-radius: 40px;
+}
