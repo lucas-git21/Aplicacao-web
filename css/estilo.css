@@ -24,7 +24,7 @@ nav{
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15.4%;
+    margin-bottom: 8%;
 }
 
 nav .caixa{
@@ -50,6 +50,7 @@ footer .footer-itens {
     justify-content: space-around;
     background-color: #273272;
     height: 180px;
+    margin-top: 20px;
 }
 
 .copyright {
@@ -77,4 +78,12 @@ footer img {
     height: 40px;
     width: 40px;
     margin-right: 10px;
+}
+
+#temperatura{
+    text-align: end;
+}
+
+#imagem-clima{
+    text-align: end;
 }
