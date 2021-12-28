@@ -138,4 +138,18 @@ footer img {
         position: relative;
         top: -30px;
     }
+
+    .secao-social{
+       display: flex;
+       flex-direction: column;
+       
+    }
+
+    .noticia-social{
+        border: none;
+    }
+
+    aside{
+        display: none;
+    }
 } 

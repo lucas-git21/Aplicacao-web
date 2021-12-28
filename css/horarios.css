@@ -112,4 +112,30 @@ footer img {
         position: relative;
         top: -30px;
     }
+
+    table{
+        display: none;
+    }
+
+    .hidden{
+        text-align: center;
+    }
+
+    .hidden h3{
+        color: rgb(40, 40, 173);
+        margin: 20px 0px;
+    }
+
+    .hidden h2{
+       font-style: italic;
+       color: rgb(75, 73, 73);
+       font-size: larger;
+       margin: 20px 0px;
+    }
+}
+
+@media (min-width: 576px){
+    .hidden{
+        display: none;
+    }
 }

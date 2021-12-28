@@ -25,12 +25,12 @@ function fetchApi(url) {
 
             let imagem = document.getElementById('pngTemp')
 
-            if (tempInCelsius <= 17) {
+            if (tempInCelsius <= 18) {
                 imagem.src = "img/congeladas.png"
-            } else if (tempInCelsius <= 25) {
-                imagem.src = "img/quente.png"
+            } else if (tempInCelsius <= 26) {
+                imagem.src = "img/clima-quente.png"
             } else {
-                imagem.src = "img/muito-quente.png"
+                imagem.src = "img/temperatura-quente.png"
             }
         })
         .catch((err) => {
