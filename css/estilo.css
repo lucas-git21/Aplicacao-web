@@ -37,12 +37,17 @@ nav .caixa{
    border-radius: 10px;
 }
 
-a{
+nav a{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #063E8C;
     font-weight: bold;
     font-size: x-large;
+}
+
+.caixa-temp a{
+    text-decoration: none;
+    color: black;
 }
 
 footer .footer-itens {
@@ -129,5 +134,9 @@ footer img {
     .copyright {
         position: relative;
         top: -30px;
+    }
+
+    header {
+        font-size: 23px;
     }
 } 

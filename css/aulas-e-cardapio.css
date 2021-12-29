@@ -128,4 +128,8 @@ footer img {
      img{
         width: 400px; 
      }
+
+     header {
+        font-size: 23px;
+    }
  } 

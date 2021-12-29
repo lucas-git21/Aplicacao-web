@@ -131,4 +131,8 @@ footer img {
          position: relative;
          top: -30px;
      }
+
+     header {
+        font-size: 23px;
+    }
  } 

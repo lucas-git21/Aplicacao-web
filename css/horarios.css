@@ -132,6 +132,10 @@ footer img {
        font-size: larger;
        margin: 20px 0px;
     }
+
+    header {
+        font-size: 23px;
+    }
 }
 
 @media (min-width: 576px){
