@@ -152,4 +152,8 @@ footer img {
     aside{
         display: none;
     }
+
+    .legenda{
+       width: 400px;
+    }
 } 
