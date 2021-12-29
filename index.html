@@ -9,7 +9,6 @@
 
     <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/estilo.css">
-    
 </head>
 
 <body>
@@ -32,16 +31,26 @@
         </div>
     </nav>
 
+    <!--caixa de fundo para a temperatura-->
     <div class="caixa-temp">
-        <a href="https://openweathermap.org/" target="_blank">
-            <div id="temperatura">
-                <h3 class="city"></h3>
-                <h3 style="margin-top: 10px;"><span style="margin-right: 20px;">0</span></h3>
-            </div>
-            <div id="imagem-clima">
+        <!--temperatura em tempo real de JF-->
+        <div id="temperatura">
+            <h3 class="city"></h3>
+            <h3 style="margin-top: 10px;"><span style="margin-right: 20px;">0</span></h3>
+        </div>
+
+        <!--imagem que se adequa dinamicamente de acordo com a temperatura-->
+        <div id="imagem-clima">
+            <!--link para a API openweather-->
+            <a href="https://openweathermap.org/" target="_blank">
                 <img id="pngTemp" src="" alt="imagem da temperatura de JF em tempo real" style="width: 60px;">
-            </div>
-        </a>
+            </a>
+        </div>
+    </div>
+
+    <!--logo aabb posicionada dentro da .caixa-temp-->
+    <div class="logo-aabb">
+        <img src="img/banner aabb.jpg" alt="" width="500px;">
     </div>
 
     <!--rodapé-->
