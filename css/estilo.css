@@ -37,7 +37,7 @@ nav .caixa {
     border-radius: 10px;
 }
 
-nav a {
+.caixa a {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #063E8C;
@@ -153,5 +153,9 @@ footer img {
 
     .logo-aabb {
         display: none;
+    }
+
+    .caixa a {
+      font-size: 21px;
     }
 }
