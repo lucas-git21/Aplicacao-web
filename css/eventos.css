@@ -83,7 +83,7 @@ footer .footer-itens {
     justify-content: space-around;
     background-color: #273272;
     height: 180px;
-   
+
 }
 
 .copyright {
@@ -116,23 +116,27 @@ footer img {
 /*tratando a responsividade*/
 @media (max-width: 576px) {
     footer .footer-itens {
-         display: flex;
-         flex-direction: column;
-         text-align: center;
-         height: 500px;
-         margin-top: 20px;
-     }
- 
-     .itens-rodape{
-         margin-top: 1px;
-     }
- 
-     .copyright {
-         position: relative;
-         top: -30px;
-     }
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 500px;
+        margin-top: 20px;
+    }
 
-     header {
+    .itens-rodape {
+        margin-top: 1px;
+    }
+
+    .copyright {
+        position: relative;
+        top: -30px;
+    }
+
+    header {
         font-size: 23px;
     }
- } 
+
+    .titulo {
+        font-size: x-large;
+    }
+}
