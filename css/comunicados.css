@@ -97,7 +97,7 @@ footer img {
 }
 
 /*tratando a responsividade*/
-@media (max-width: 576px) {
+@media (max-width: 1050px) {
     nav {
         display: flex;
         flex-direction: column;
