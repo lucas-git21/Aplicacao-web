@@ -73,6 +73,7 @@ footer .footer-itens {
     top: -40px;
     color: rgb(223, 241, 241);
     text-align: center;
+    user-select: none;
 }
 
 .itens-rodape {
@@ -97,6 +98,7 @@ footer img {
 
 #temperatura {
     text-align: end;
+	user-select: none;
 }
 
 #imagem-clima {
